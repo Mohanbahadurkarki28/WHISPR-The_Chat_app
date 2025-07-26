@@ -59,7 +59,7 @@ const SignUpPage = () => {
                 <div>
                   <h2 className="text-xl font-semibold">Create an Account</h2>
                   <p className="text-sm opacity-70">
-                    Join Whispr and start your language learning adventure!
+                    Join Whispr and start your Programming language & Coding Journey
                   </p>
                 </div>
 
@@ -151,13 +151,13 @@ const SignUpPage = () => {
           <div className="max-w-md p-8">
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
-              <img src="/i.png" alt="Language connection illustration" className="w-full h-full" />
+              <img src="/" alt="Language connection illustration" className="w-full h-full" />
             </div>
 
             <div className="text-center space-y-3 mt-6">
-              <h2 className="text-xl font-semibold">Connect with language partners worldwide</h2>
+              <h2 className="text-xl font-semibold">Connect with Programming Language worldwide</h2>
               <p className="opacity-70">
-                Practice conversations, make friends, and improve your language skills together
+                Practice Learning Coding, make friends, and improve your Programming language & skills together
               </p>
             </div>
           </div>
