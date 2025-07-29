@@ -51,7 +51,7 @@ const MessagesListPage = () => {
             key={friend._id}
             onClick={() => {
               const channelId = [authUser._id, friend._id].sort().join("-");
-              navigate(`/messages/${channelId}`);
+              navigate(`/chat/${channelId}`);
             }}
             className="cursor-pointer bg-base-200 rounded-xl p-4 shadow hover:bg-base-300 transition"
           >

@@ -4,6 +4,7 @@ import {
   acceptFriendRequest,
   getFriendRequests,
   getMyFriends,
+  getNotifications,
   getOutgoingFriendReqs,
   getRecommendedUsers,
   sendFriendRequest,
@@ -15,6 +16,7 @@ const router = express.Router();
 router.use(protectRoute);
 
 router.get("/", getRecommendedUsers);
+router.get("/notifications", getNotifications);
 router.get("/friends", getMyFriends);
 
 router.post("/friend-request/:id", sendFriendRequest);
